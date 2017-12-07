@@ -1,0 +1,28 @@
+/* SOCIAL MEDIA ICON CODE*/
+.social-icon-linkedin, .social-icon-github, .social-icon-stackoverflow { /*All Social Icon div's are the same size, and background behaves the same way */
+	height: 50px; 
+	width: 50px; 
+	background-image: url(images/social-icons.png); 
+	display: inline-block;
+	background-repeat: no-repeat;
+}
+/* Each div below specifies the position of one background image. Note - All icons are moved "-50px up" when hovered on to show the bottom row of icons on the hover state */
+
+.social-icon-github {
+	background-position: 0px 0px; /* background is 0px from the left, and 0px from top */
+}
+.social-icon-github:hover {
+	background-position: 0px -50px; /* background is 0px from the left, and -50px from top, showing the icon below */
+}
+.social-icon-stackoverflow {
+	background-position: -50px 0px; /* background is -50px from the left, and 0px from top */
+}
+.social-icon-stackoverflow:hover {
+	background-position: -50px -50px; 	/* background is -50px from the left, and -50px from top, showing middle icon in the bottom row */
+}
+.social-icon-linkedin {
+	background-position: -100px 0px; 	/* background is -100px from the left, and 0px from top */
+}
+.social-icon-linkedin:hover {
+	background-position: -100px -50px; 	 	/* background is -100px from the left, and -50px from top. */
+}
